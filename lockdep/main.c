@@ -1,4 +1,4 @@
-#include <thread.h>
+#include <pthread.h>
 #include "lockdep.h"
 
 lock_t lk1 = LOCK_INIT();
