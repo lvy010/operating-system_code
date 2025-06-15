@@ -1,0 +1,1 @@
+**CUDA 实现的 Mandelbrot Set**: 和 “原版” C 代码对比，实际计算的 mandelbrot 函数完全没有任何修改，只是增加了 “__kernel__” 的修饰。此外，worker 线程被 mandelbrot_kernel 函数取代，这个函数在 GPU 上运行，通过 blockIdx, blockDim 和 threadIdx 计算出线程对应的像素坐标。没错，CUDA 是另一种 “启动百千万个轻量级线程” 的机制。
