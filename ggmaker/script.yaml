@@ -1,0 +1,83 @@
+# scene_name:
+#     description: 描述
+#     image: 图片
+#     1:
+#         description: 选项 1 描述
+#         next: 选此选项后到达的 scene
+#     2:
+#         ...
+
+# (以下为 AIGC)
+
+start:
+    description: 图书馆里，对面坐着一位气质优雅的女生。阳光勾勒出她精致的侧脸线条，她专注阅读的样子让你忍不住多看了几眼，心跳微微加速。
+    image: img/library.jpg
+    1:
+        description: 主动打招呼
+        next: introduce_self
+    2:
+        description: 继续看书，但时不时观察她
+        next: shy_glance
+    3:
+        description: 假装不小心把书掉在地上
+        next: book_drop
+
+introduce_self:
+    description: 你走到她面前，礼貌地自我介绍：“你好，我是小明。”近距离看到她的眼睛，你感到一阵微妙的心动。
+    image: img/library_talk.jpg
+    1:
+        description: 她微笑着回应：“你好，我是小红。”
+        next: friendly_chat
+    2:
+        description: 她略显惊讶，但还是礼貌地回应
+        next: awkward_moment
+
+shy_glance:
+    description: 你假装看书，目光却不自觉地被她吸引。突然，她抬头与你四目相对，嘴角微微上扬，让你心跳漏了一拍。
+    image: img/eye_contact.jpg
+    1:
+        description: 慌乱地移开视线
+        next: embarrassed
+    2:
+        description: 对她微笑，保持自然的眼神接触
+        next: friendly_chat
+
+book_drop:
+    description: 书本落地的声响引起她注意。她弯腰帮你捡书时，发丝轻轻拂过你的手背，留下一丝若有若无的香气。
+    image: img/book_fall.jpg
+    1:
+        description: 她主动帮你捡起书
+        next: friendly_chat
+    2:
+        description: 她只是看了一眼，继续学习
+        next: embarrassed
+
+friendly_chat:
+    description: 交谈中，她时而微笑时而认真，言语间流露出的智慧与温柔让你不禁想更靠近一些，了解更多。
+    image: img/library_chat.jpg
+    1:
+        description: 邀请她一起去喝咖啡，继续交谈
+        next: start
+    2:
+        description: 交换联系方式，期待下次见面
+        next: start
+
+awkward_moment:
+    description: 气氛略显尴尬，但她微微咬唇的样子却意外地吸引人。你努力思考着如何挽回这局面。
+    image: img/awkward.jpg
+    1:
+        description: 找个借口离开
+        next: start
+    2:
+        description: 尝试找话题继续聊天
+        next: friendly_chat
+
+embarrassed:
+    description: 尴尬中，你注意到她轻轻整理头发的动作优雅而迷人。你犹豫着是否该再次尝试接近这位神秘的女孩。
+    image: img/embarrassed.jpg
+    1:
+        description: 收拾东西准备离开
+        next: start
+    2:
+        description: 鼓起勇气再次尝试接触
+        next: introduce_self
