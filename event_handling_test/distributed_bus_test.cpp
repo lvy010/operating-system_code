@@ -7,40 +7,46 @@
 #include <functional>
 
 struct Message {
-    int sender_core;
+    int sender;
     std::string content;
     
-    Message(int sender, const std::string& msg) 
-        : sender_core(sender), content(msg) {}
+    // 添加默认构造函数
+    Message() : sender(-1), content("") {}
+    
+    Message(int sender, const std::string& msg)
+        : sender(sender), content(msg) {}
 };
 
 class DistributedBus {
-    std::vector<LockFreeQueue<Message>> per_core_queues; // 每个核独立队列
+    std::vector<std::unique_ptr<LockFreeQueue<Message>>> per_core_queues; // 使用智能指针
     std::atomic<int> next_core{0};
     int num_cores;
     std::vector<std::function<void(const Message&)>> registered_handlers;
 
 public:
     DistributedBus(int cores) : num_cores(cores) {
-        per_core_queues.resize(cores);
+        // 手动初始化队列
+        for (int i = 0; i < cores; ++i) {
+            per_core_queues.push_back(std::make_unique<LockFreeQueue<Message>>());
+        }
         registered_handlers.resize(cores);
     }
 
     void send(int target_core, const Message& msg) {
         if (target_core >= 0 && target_core < num_cores) {
-            per_core_queues[target_core].push(msg);
+            per_core_queues[target_core]->push(msg);
         }
     }
 
     void broadcast(const Message& msg) {
         for (int i = 0; i < num_cores; ++i) {
-            per_core_queues[i].push(msg);
+            per_core_queues[i]->push(msg);
         }
     }
 
     void receive(int core_id) {
         if (core_id >= 0 && core_id < num_cores) {
-            auto msg = per_core_queues[core_id].pop();
+            auto msg = per_core_queues[core_id]->pop();
             if (msg && registered_handlers[core_id]) {
                 registered_handlers[core_id](*msg);
             }
@@ -61,7 +67,7 @@ void core_worker(int core_id, DistributedBus& bus) {
     // 注册消息处理器
     bus.register_handler(core_id, [core_id](const Message& msg) {
         std::cout << "核心 " << core_id << " 收到来自核心 " 
-                  << msg.sender_core << " 的消息: " << msg.content << std::endl;
+                  << msg.sender << " 的消息: " << msg.content << std::endl;
     });
     
     // 发送一些测试消息
