@@ -1,7 +1,7 @@
 # Operating Systems: Three Easy Pieces 读书笔记
 
 ## 简介
-这个仓库包含了在阅读《Operating Systems: Three Easy Pieces》时所做的笔记。
+这个仓库包含了在阅读《Operating Systems: Three Easy Pieces》时所产生的想法
 
 ## 目录结构
 - `/notes`: 包含了所有的读书笔记。
