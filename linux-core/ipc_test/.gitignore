@@ -1,0 +1,80 @@
+# 编译生成的可执行文件
+pipe_demo
+msgqueue_demo
+sharedmem_demo
+semaphore_demo
+socket_demo
+
+# 编译生成的对象文件
+*.o
+*.obj
+
+# 编译生成的库文件
+*.a
+*.lib
+
+# 调试文件
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# 核心转储文件
+core
+core.*
+
+# 临时文件
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# 系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# 日志文件
+*.log
+
+# 测试生成的临时文件
+/tmp/demo_fifo
+/tmp/demo_socket
+
+# 系统 IPC 资源（通常会自动清理）
+# 但如果有残留的话，也应该忽略
+*.ipc
+
+# 备份文件
+*.bak
+*.backup
+
+# 压缩文件（如果有的话）
+*.zip
+*.tar.gz
+*.rar
+
+# 文档生成文件（如果使用文档生成工具）
+doc/
+docs/html/
+docs/latex/
+
+# 性能分析文件
+*.prof
+gmon.out
+
+# 内存检查文件
+valgrind-*.log
