@@ -1,0 +1,14 @@
+total 36
+drwxrwxr-x 2 wdl wdl  4096 Oct 14 22:57 .
+drwxrwxr-x 3 wdl wdl  4096 Oct 14 14:13 ..
+-rw-rw-rw- 1 wdl wdl     0 Oct 14 22:57 log.txt
+-rw-rw-r-- 1 wdl wdl    87 Oct 14 14:13 Makefile
+-rwxrwxr-x 1 wdl wdl 13768 Oct 14 22:54 myshell
+-rw-rw-r-- 1 wdl wdl  5736 Oct 14 22:54 myshell.c
+total 40
+drwxrwxr-x 2 wdl wdl  4096 Oct 14 22:57 .
+drwxrwxr-x 3 wdl wdl  4096 Oct 14 14:13 ..
+-rw-rw-rw- 1 wdl wdl   289 Oct 14 22:57 log.txt
+-rw-rw-r-- 1 wdl wdl    87 Oct 14 14:13 Makefile
+-rwxrwxr-x 1 wdl wdl 13768 Oct 14 22:54 myshell
+-rw-rw-r-- 1 wdl wdl  5736 Oct 14 22:54 myshell.c
