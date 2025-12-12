@@ -1,0 +1,5 @@
+苹果:apple
+香蕉:banana
+西瓜:watermelon
+orange:橘子
+strawberry:草莓
