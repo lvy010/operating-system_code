@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "typeinfo": "cpp",
+        "sstream": "cpp",
+        "functional": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "array": "cpp",
+        "string": "cpp"
+    }
+}
