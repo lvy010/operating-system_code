@@ -1,0 +1,118 @@
+[NORMAL][2024-3-22 16-39-12][pid: 29648]socker create success :3
+[NORMAL][2024-3-22 16-39-12][pid: 29648]bind socket success
+[NORMAL][2024-3-22 16-39-12][pid: 29648]listen socker success
+[NORMAL][2024-3-22 16-39-12][pid: 29648]Thread init success
+[NORMAL][2024-3-22 16-39-20][pid: 29648]accpet a new link success,get new sock: 4
+[NORMAL][2024-3-22 16-39-33][pid: 29648]client quit, me to!
+[NORMAL][2024-3-22 16-44-58][pid: 31598]socker create success :3
+[NORMAL][2024-3-22 16-44-58][pid: 31598]bind socket success
+[NORMAL][2024-3-22 16-44-58][pid: 31598]listen socker success
+[NORMAL][2024-3-22 16-44-58][pid: 31598]Thread init success
+[NORMAL][2024-3-22 16-45-23][pid: 31771]socker create success :3
+[NORMAL][2024-3-22 17-1-18][pid: 31598]accpet a new link success,get new sock: 4
+[NORMAL][2024-3-22 17-1-24][pid: 31598]client quit, me to!
+[NORMAL][2024-3-22 17-5-10][pid: 5984]socker create success :3
+[NORMAL][2024-3-22 17-5-10][pid: 5984]bind socket success
+[NORMAL][2024-3-22 17-5-10][pid: 5984]listen socker success
+[NORMAL][2024-3-22 17-5-10][pid: 5984]Thread init success
+[NORMAL][2024-3-22 17-5-36][pid: 5984]accpet a new link success,get new sock: 4
+[NORMAL][2024-3-22 17-5-47][pid: 5984]client quit, me to!
+[NORMAL][2024-3-22 17-40-27][pid: 17938]socker create success :3
+[NORMAL][2024-3-22 17-40-27][pid: 17938]bind socket success
+[NORMAL][2024-3-22 17-40-27][pid: 17938]listen socker success
+[NORMAL][2024-3-22 17-40-27][pid: 17939]Thread init success
+[NORMAL][2024-3-22 17-41-54][pid: 17939]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-22 17-42-0][pid: 17939]client quit, me to!
+[NORMAL][2024-3-22 20-38-29][pid: 10383]socker create success :3
+[NORMAL][2024-3-22 20-38-29][pid: 10383]bind socket success
+[NORMAL][2024-3-22 20-38-29][pid: 10383]listen socker success
+[NORMAL][2024-3-22 20-38-29][pid: 10384]Thread init success
+[NORMAL][2024-3-23 21-57-36][pid: 14567]socker create success
+[NORMAL][2024-3-23 21-57-36][pid: 14567]bind socket success
+[NORMAL][2024-3-23 21-57-36][pid: 14567]listen socker success
+[NORMAL][2024-3-24 15-33-29][pid: 16907]socker create success :3
+[NORMAL][2024-3-24 15-33-29][pid: 16907]bind socket success
+[NORMAL][2024-3-24 15-33-29][pid: 16907]listen socker success
+[NORMAL][2024-3-24 15-33-29][pid: 16907]Thread init success
+[NORMAL][2024-3-24 15-33-32][pid: 16907]accpet a new link success,get new sock: 4
+[NORMAL][2024-3-24 15-35-17][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-35-18][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-38-28][pid: 16907]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 15-38-32][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-38-44][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-38-49][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-38-49][pid: 16907]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 15-38-51][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-38-51][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-38-53][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-38-54][pid: 16907]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 15-38-56][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-38-56][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-38-58][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-39-11][pid: 16907]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 15-39-16][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-39-28][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-39-33][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-39-46][pid: 16907]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 15-39-51][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-40-3][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-40-8][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-40-20][pid: 16907]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 15-40-25][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-40-37][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-40-42][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-40-55][pid: 16907]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 15-41-0][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-41-12][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-41-17][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-41-29][pid: 16907]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 15-41-34][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-41-46][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-41-51][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-41-52][pid: 16907]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 15-41-54][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-42-6][pid: 16907]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 15-42-15][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-45-8][pid: 16907]client quit, me to!
+[NORMAL][2024-3-24 15-46-6][pid: 20912]socker create success :3
+[NORMAL][2024-3-24 15-46-6][pid: 20912]bind socket success
+[NORMAL][2024-3-24 15-46-6][pid: 20912]listen socker success
+[NORMAL][2024-3-24 15-46-6][pid: 20912]Thread init success
+[NORMAL][2024-3-24 15-47-2][pid: 21232]socker create success :3
+[NORMAL][2024-3-24 15-47-2][pid: 21232]bind socket success
+[NORMAL][2024-3-24 15-47-2][pid: 21232]listen socker success
+[NORMAL][2024-3-24 15-47-2][pid: 21232]Thread init success
+[NORMAL][2024-3-24 16-28-3][pid: 2110]socker create success :3
+[NORMAL][2024-3-24 16-28-3][pid: 2110]bind socket success
+[NORMAL][2024-3-24 16-28-3][pid: 2110]listen socker success
+[NORMAL][2024-3-24 16-28-3][pid: 2110]Thread init success
+[NORMAL][2024-3-24 16-28-18][pid: 2217]socker create success :3
+[NORMAL][2024-3-24 16-28-18][pid: 2217]bind socket success
+[NORMAL][2024-3-24 16-28-18][pid: 2217]listen socker success
+[NORMAL][2024-3-24 16-28-18][pid: 2217]Thread init success
+[NORMAL][2024-3-24 16-32-47][pid: 2217]accpet a new link success,get new sock: 4
+[NORMAL][2024-3-24 16-33-7][pid: 2217]client quit, me to!
+[NORMAL][2024-3-24 17-6-34][pid: 14010]socker create success :3
+[NORMAL][2024-3-24 17-6-34][pid: 14010]bind socket success
+[NORMAL][2024-3-24 17-6-34][pid: 14010]listen socker success
+[NORMAL][2024-3-24 17-6-34][pid: 14010]Thread init success
+[NORMAL][2024-3-24 19-8-23][pid: 18383]socker create success :3
+[NORMAL][2024-3-24 19-8-23][pid: 18383]bind socket success
+[NORMAL][2024-3-24 19-8-23][pid: 18383]listen socker success
+[NORMAL][2024-3-24 19-8-23][pid: 18383]Thread init success
+[NORMAL][2024-3-24 19-9-15][pid: 18663]socker create success :3
+[NORMAL][2024-3-24 19-9-15][pid: 18663]bind socket success
+[NORMAL][2024-3-24 19-9-15][pid: 18663]listen socker success
+[NORMAL][2024-3-24 19-9-15][pid: 18664]Thread init success
+[NORMAL][2024-3-24 19-16-17][pid: 18664]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 19-16-38][pid: 18664]client quit, me to!
+[NORMAL][2024-3-24 19-19-28][pid: 18664]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 19-19-59][pid: 18664]client quit, me to!
+[NORMAL][2024-3-24 19-20-25][pid: 18664]accpet a new link success,get new sock: 5
+[NORMAL][2024-3-24 19-20-36][pid: 18664]client quit, me to!
+[NORMAL][2024-3-24 19-21-0][pid: 18664]accpet a new link success,get new sock: 6
+[NORMAL][2024-3-24 19-21-52][pid: 18664]client quit, me to!
+[NORMAL][2024-3-24 19-29-18][pid: 24868]socker create success :3
+[NORMAL][2024-3-24 19-29-18][pid: 24868]bind socket success
+[NORMAL][2024-3-24 19-29-18][pid: 24868]listen socker success
+[NORMAL][2024-3-24 19-29-18][pid: 24869]Thread init success
