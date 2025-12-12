@@ -1,4 +1,4 @@
-# deli
+# Linux-study
 
 Linux 学习代码合集，按 专栏 **「Linux os+网络」** 的文章组织
 
